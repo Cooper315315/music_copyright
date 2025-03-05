@@ -119,6 +119,27 @@ This Python application provides a secure system for managing music-related docu
 
    Figure 5: Retrieveing document from the application
 
+## 6. Database
+### 1. Access the database
+
+        sqlite3 music_database.db
+
+An additional command was provded to the database, which is ".tables". This will display the tables inside the *music_database.db. 
+<img width="687" alt="Screenshot 2025-03-06 at 01 52 53" src="https://github.com/user-attachments/assets/d4e46f04-48c2-460e-b40e-e688dd92c83d" />
+
+### 2. Table: Users
+      select * from users;
+Above SQL query will display the data in the user table, which consists of an administrator account (admin1) and a registered account (user).
+
+<img width="959" alt="Screenshot 2025-03-05 at 23 17 44" src="https://github.com/user-attachments/assets/b0c8dd6a-9b70-44c6-b1bc-9c8631ba959a" />
+
+### 3. Table: audio_files
+      select * from audio_files
+Above SQL query will display the data in the artifact table, which consists of audio file (test.mp3).
+
+<img width="1232" alt="Screenshot 2025-03-05 at 23 07 25" src="https://github.com/user-attachments/assets/1a2a8b87-9465-455a-bed7-ccca7b030b7c" />
+
+
 ## Important Considerations
 
 *   **Password Security:** Choose strong, unique passwords for your user accounts.
