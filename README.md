@@ -75,6 +75,18 @@ This Python application provides a secure system for managing music-related docu
 2.	**Login:** Login as administrator or a registered account
 3.	**Exit:** Exit the application
 
+<img width="657" alt="Screenshot 2025-03-05 at 23 01 36" src="https://github.com/user-attachments/assets/e9e90dfd-3142-4d51-9593-3e417a40590b" />
+
+**Figure 1: Login Page**
+
+<img width="657" alt="Screenshot 2025-03-05 at 23 01 57" src="https://github.com/user-attachments/assets/2cc015d0-9dab-4261-985e-caca0fbb5944" />
+
+**Figure 2: Logged in as an administrator**
+
+<img width="555" alt="Screenshot 2025-03-05 at 23 14 42" src="https://github.com/user-attachments/assets/fb31e277-af15-427a-a9d3-7d29e846106d" />
+
+**Figure 3: Logged in as an user**
+
 ## Important Considerations
 
 *   **Password Security:** Choose strong, unique passwords for your user accounts.
