@@ -145,7 +145,17 @@ Above SQL query will display the data in the document table, which consists of d
 
 <img width="1273" alt="Screenshot 2025-03-06 at 02 10 05" src="https://github.com/user-attachments/assets/d78f4fef-f9ba-4575-869c-942d65f6bffc" />
 
+## 7. Logging
+### 1. Access the log file
+      cat access.log
 
+In the log file, it logs any activities conducted in the application and including information of date, time, what kind of activitiy and who conducted it.
+
+In figure 6 below, a lot of activities are logged into the file such as Audio file test.mp3 was successfully retrieved at 23:08pm on 5th Mar 2025.
+
+   <img width="741" alt="Screenshot 2025-03-05 at 23 18 30 mod" src="https://github.com/user-attachments/assets/7d36a854-0337-477d-85c3-0d9ef46970a6" />
+
+   Figure 6: Log files contains all activities conducted in the application.
 
 ## Important Considerations
 
