@@ -150,8 +150,6 @@ Above SQL query will display the data in the document table, which consists of d
 ## Important Considerations
 
 *   **Password Security:** Choose strong, unique passwords for your user accounts.
-*   **Data Backup:** Regularly back up the `music_database.db` file to prevent data loss.
-*   **Key Management:** The encryption key is derived from the password you enter when adding documents or audio files. If you forget the password, you will not be able to decrypt the data. Consider using a password manager to store your passwords securely.
 
 ## Code Explanation
 
