@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This Python application provides a secure system for managing music-related documents and audio files. It allows users to store, retrieve, and manage their music-related assets in a protected environment. The system incorporates strong security measures to protect sensitive data, including AES-256 encryption for data storage, bcrypt for password hashing, and input sanitization to prevent common security vulnerabilities.
+*   This Python application provides a secure system for managing music-related documents and audio files. It allows users to store, retrieve, and manage their music-related assets in a protected environment. The system incorporates strong security measures to protect sensitive data, including AES-256 encryption for data storage, bcrypt for password hashing, and input sanitization to prevent common security vulnerabilities.
 
 ## 2. Security Features
 
