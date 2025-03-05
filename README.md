@@ -71,21 +71,53 @@ This Python application provides a secure system for managing music-related docu
 3.  **Follow the Prompts:** The script will guide you through a menu-driven interface to register users, log in, add documents/audio files, retrieve them, and perform other management tasks.
 
 ## 5. Functions Rundown
+*Login page*
 1.	**Register:** Register an account in order to login and conduct different action such as create & update artifacts.
 2.	**Login:** Login as administrator or a registered account
 3.	**Exit:** Exit the application
 
-<img width="657" alt="Screenshot 2025-03-05 at 23 01 36" src="https://github.com/user-attachments/assets/e9e90dfd-3142-4d51-9593-3e417a40590b" />
+    <img width="657" alt="Screenshot 2025-03-05 at 23 01 36" src="https://github.com/user-attachments/assets/e9e90dfd-3142-4d51-9593-3e417a40590b" />
 
-**Figure 1: Login Page**
+      **Figure 1: Login Page**
 
-<img width="657" alt="Screenshot 2025-03-05 at 23 01 57" src="https://github.com/user-attachments/assets/2cc015d0-9dab-4261-985e-caca0fbb5944" />
+      <img width="657" alt="Screenshot 2025-03-05 at 23 01 57" src="https://github.com/user-attachments/assets/2cc015d0-9dab-4261-985e-caca0fbb5944" />
+   
+      **Figure 2: Logged in as an administrator**
+   
+      <img width="555" alt="Screenshot 2025-03-05 at 23 14 42" src="https://github.com/user-attachments/assets/fb31e277-af15-427a-a9d3-7d29e846106d" />
+   
+      **Figure 3: Logged in as an user**
 
-**Figure 2: Logged in as an administrator**
+*Main menu*
 
-<img width="555" alt="Screenshot 2025-03-05 at 23 14 42" src="https://github.com/user-attachments/assets/fb31e277-af15-427a-a9d3-7d29e846106d" />
+**Function 1 & 2: Add Document/audio files**
 
-**Figure 3: Logged in as an user**
+   In Figure 4, a test document named *test.docx* was uploaded into the application.
+   
+   The steps to take are follows:
+   
+   1.	Select a process ("Add Document") to run, so type "1" and hit enter.
+   2.	Enter the file path.
+   3.	Enter the administrator password.
+
+   <img width="614" alt="Screenshot 2025-03-05 at 23 05 46 mod" src="https://github.com/user-attachments/assets/04e472b8-0761-48d3-8faa-e7fa02fffed1" />
+
+   Figure 4: Uploading document in the application
+
+
+**Function 3 & 4: Retrieve Document/audio files**
+
+   In Figure 5, a test audio file named *test.mp3* was downloaded from the application.
+   
+   The steps to take are follows:
+   
+   1.	Select a process ("REtrieve Audio File") to run, so type "4" and hit enter.
+   2.	Enter audio file ID.
+   3.	Enter the administrator password.
+
+   <img width="730" alt="Screenshot 2025-03-06 at 01 43 36" src="https://github.com/user-attachments/assets/5e1e42ab-5f0b-447c-a179-7ecab95520fc" />
+
+   Figure 5: Retrieveing document from the application
 
 ## Important Considerations
 
@@ -111,7 +143,3 @@ This Python application provides a secure system for managing music-related docu
 
 [3]  OWASP Foundation. (2024). *Input Validation Cheat Sheet*. [https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 
-## Disclaimer
-
-This application is provided as-is, with no warranty of any kind. The user assumes all responsibility for the security of their data. While the security measures implemented in this application are intended to provide a high level of protection, no system can be completely secure.
-![image](https://github.com/user-attachments/assets/c083d973-3d1a-4e29-bcd7-f40565cd8c3a)
