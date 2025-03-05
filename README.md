@@ -134,10 +134,17 @@ Above SQL query will display the data in the user table, which consists of an ad
 <img width="959" alt="Screenshot 2025-03-05 at 23 17 44" src="https://github.com/user-attachments/assets/b0c8dd6a-9b70-44c6-b1bc-9c8631ba959a" />
 
 ### 3. Table: audio_files
-      select * from audio_files
+      select * from audio_files;
 Above SQL query will display the data in the artifact table, which consists of audio file (test.mp3).
 
 <img width="1232" alt="Screenshot 2025-03-05 at 23 07 25" src="https://github.com/user-attachments/assets/1a2a8b87-9465-455a-bed7-ccca7b030b7c" />
+
+### 4. Table: documents
+      select * from documents;
+Above SQL query will display the data in the document table, which consists of document (test.docx).
+
+<img width="1273" alt="Screenshot 2025-03-06 at 02 10 05" src="https://github.com/user-attachments/assets/d78f4fef-f9ba-4575-869c-942d65f6bffc" />
+
 
 
 ## Important Considerations
