@@ -70,6 +70,11 @@ This Python application provides a secure system for managing music-related docu
 
 3.  **Follow the Prompts:** The script will guide you through a menu-driven interface to register users, log in, add documents/audio files, retrieve them, and perform other management tasks.
 
+## 5. Functions Rundown
+1.	**Register:** Register an account in order to login and conduct different action such as create & update artifacts.
+2.	**Login:** Login as administrator or a registered account
+3.	**Exit:** Exit the application
+
 ## Important Considerations
 
 *   **Password Security:** Choose strong, unique passwords for your user accounts.
@@ -97,4 +102,4 @@ This Python application provides a secure system for managing music-related docu
 ## Disclaimer
 
 This application is provided as-is, with no warranty of any kind. The user assumes all responsibility for the security of their data. While the security measures implemented in this application are intended to provide a high level of protection, no system can be completely secure.
-![image](https://github.com/user-attachments/assets/e08ac863-e99c-4651-95c2-81746d1633c9)
+![image](https://github.com/user-attachments/assets/c083d973-3d1a-4e29-bcd7-f40565cd8c3a)
