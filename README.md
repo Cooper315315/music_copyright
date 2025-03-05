@@ -111,7 +111,7 @@
    
    The steps to take are follows:
    
-   1.	Select a process ("REtrieve Audio File") to run, so type "4" and hit enter.
+   1.	Select a process ("Retrieve Audio File") to run, so type "4" and hit enter.
    2.	Enter audio file ID.
    3.	Enter the administrator password.
 
