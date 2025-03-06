@@ -198,3 +198,9 @@ In figure 6 below, a lot of activities are logged into the file such as Audio fi
 
 [3]  OWASP Foundation. (2024). *Input Validation Cheat Sheet*. [https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 
+[4]  Cryptography Development Team. (2024). *cryptography*. [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)
+
+[5]  Wheeler, D. A. (2023). *Secure Password Storage*. [https://dwheeler.com/essays/passwords.html](https://dwheeler.com/essays/passwords.html)
+
+[6]  Seacord, R. C. (2013). *Secure Coding in C and C++*. Addison-Wesley Professional. (Relevant sections on input validation).
+
