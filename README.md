@@ -172,19 +172,16 @@ In figure 6 below, a lot of activities are logged into the file such as Audio fi
 
    Figure 6: Log files contains all activities conducted in the application.
 
-## Important Considerations
-
-*   **Password Security:** Choose strong, unique passwords for your user accounts.
-
 ## Code Explanation
 
-*   **`encrypt(data, password)`:** This function encrypts the given data using AES-256 with a key derived from the provided password. It uses a random initialization vector (IV) for added security.
-*   **`decrypt(encrypted_data, password)`:** This function decrypts the encrypted data using the same AES-256 key derived from the password.
-*   **`register_user()`:** This function registers a new user, hashing their password using bcrypt before storing it in the database.
-*   **`login_user()`:** This function authenticates a user by comparing the entered password with the bcrypt hash stored in the database.
-*   **`validate_filename(filename)` and `validate_username(username)`:** These functions use regular expressions to validate filenames and usernames, preventing invalid or potentially malicious inputs.
-*   **`sanitize_filename(filename)`:** This function sanitizes filenames to remove potentially harmful characters.
-*   **`log_activity(activity, username)`:** This function logs user activity to an "access.log" file for auditing purposes.
+*   **`encrypt(data, password)`:** This function uses AES-256 to encrypt artifacts data (documents and audio files). The  ` encrypt ` function is called when a user wants to upload documents or audio files.
+*   **`decrypt(encrypted_data, password)`:** This function decrypts the encrypted data using the same AES-256 method. The  ` decrypt ` function is called when a user wants to retrieve documents or audio files.
+*   **`register_user()`:** This function registers a new user. It uses the `bcrypt` library to hash the input password and store it in the database.
+*   **`login_user()`:** This function authenticates a user by comparing the input password with hashed password in the database.
+*   **`validate_filename(filename)` and `validate_username(username)`:** These functions use regular expressions (`re` library)to validate filenames and usernames, preventing invalid or potentially malicious inputs.
+*   **`log_activity(activity, username)`:** This function logs user activity to an "access.log" file. This log file can be used for important purposes including security audits and incident investigation/troubleshooting.
+
+
 
 ## Academic References
 
