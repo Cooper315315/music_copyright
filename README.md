@@ -10,7 +10,7 @@
 
       All documents and audio files are encrypted using the Advanced Encryption Standard (AES) with a 256-bit key. This ensures that the data is protected from unauthorized access, even if the database is compromised. AES is a widely recognized and robust symmetric encryption algorithm, suitable for securing sensitive information [1]. The `cryptography` library is used because it provides a high-level, easy-to-use interface to AES and other cryptographic algorithms, while also being actively maintained and audited for security vulnerabilities [4].  The encryption key is derived from the password you enter when adding documents or audio files. If you forget the password, you will not be able to decrypt the data. *Justification:* AES encryption protects data at rest.
    
-*   **bcrypt Password Hashing:**
+*   **Password Hashing (using `bcrypt` library):**
   
       User passwords are not stored in plain text. Instead, they are hashed using bcrypt, a strong adaptive hashing algorithm. Bcrypt incorporates a salt to protect against rainbow table attacks and is computationally intensive, making it resistant to brute-force attacks [2]. *Justification:*  bcrypt is used because it is specifically designed for password hashing. Its adaptive nature allows the hashing time to be increased as computing power improves, maintaining its resistance to brute-force attacks over time.  It's a standard recommendation for secure password storage [5].
     
