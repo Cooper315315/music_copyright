@@ -19,8 +19,12 @@ In addition, the application generates a log file – **access.log**, which reco
 
    
 *   **Password Hashing (using `bcrypt` library):**
-  
-      User passwords are not stored in plain text. Instead, they are hashed using bcrypt, a strong adaptive hashing algorithm. Bcrypt incorporates a salt to protect against rainbow table attacks and is computationally intensive, making it resistant to brute-force attacks [2]. *Justification:*  bcrypt is used because it is specifically designed for password hashing. Its adaptive nature allows the hashing time to be increased as computing power improves, maintaining its resistance to brute-force attacks over time.  It's a standard recommendation for secure password storage [5].
+      
+    Passwords are important credential information and must be protected, which is why bcrypt library is used to hash the password. This library also add salt to protect common attacks including rainbow table attacks and brute-force attacks.
+    
+    *Justification:* bcrypt is designed specifically for password hashing. It is an effective method to withstand brute-force attacks and it is a highly recommended security features in a lot of application.
+
+
     
 *   **Input Sanitization (using `re` module):**
   
