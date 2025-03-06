@@ -28,9 +28,9 @@ In addition, the application generates a log file – **access.log**, which reco
     
 *   **Input Sanitization (using `re` module):**
   
-      The application implements input sanitization techniques, using regular expressions from the `re` module, to prevent injection attacks such as SQL injection and cross-site scripting (XSS). User inputs, such as filenames and usernames, are validated and sanitized to remove or escape potentially harmful characters [3]. *Justification:* Input sanitization is crucial to prevent attackers from injecting malicious code into the application through user-supplied data. Regular expressions provide a powerful and flexible way to define patterns for valid input and to identify and remove potentially harmful characters.  Properly implemented input validation is a fundamental security practice [6].
-
-
+      The application has implemented input sanitization mechanism in order to prevent injection attacks such as SQL injection and Coss-site scripting (XSS). While a user is providing a file name or audio file, the input is validated to remove potentially characters or malicious code
+    
+    *Justification:* By using the regular expression library (i.e. `re`), the system has the ability to pre-define acceptable patterns from user’s input. More importantly, it can identify and remove potentially malicious input of codes such as malicious sql  (" or 1=1). Properly implemented input validation is a fundamental security practice [6].
 
 ## 3. Installation
 
