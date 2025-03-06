@@ -122,6 +122,10 @@
 ## 6. Database
 ### 1. Access the database
 
+Once you logged into the application, a database is generated. It is called music_database.db and it will be generated in the same directory as the python script.
+
+To access and view the database, enter below command in the terminal.
+
         sqlite3 music_database.db
 
 An additional command was provded to the database, which is ".tables". This will display the tables inside the *music_database.db. 
@@ -147,9 +151,14 @@ Above SQL query will display the data in the document table, which consists of d
 
 ## 7. Logging
 ### 1. Access the log file
-      cat access.log
+
+Once you logged into the application, a log file is generated. It is called access.log and it will be generated in the same directory as the python script.
 
 In the log file, it logs any activities conducted in the application and including information of date, time, what kind of activitiy and who conducted it.
+
+To access and view the log, enter below command in the terminal.
+
+      cat access.log
 
 In figure 6 below, a lot of activities are logged into the file such as Audio file test.mp3 was successfully retrieved at 23:08pm on 5th Mar 2025.
 
