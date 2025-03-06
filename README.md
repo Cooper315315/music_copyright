@@ -13,7 +13,10 @@ In addition, the application generates a log file – **access.log**, which reco
 
 *   **AES-256 Encryption (using `cryptography` library):**
 
-      All documents and audio files are encrypted using the Advanced Encryption Standard (AES) with a 256-bit key. This ensures that the data is protected from unauthorized access, even if the database is compromised. AES is a widely recognized and robust symmetric encryption algorithm, suitable for securing sensitive information [1]. The `cryptography` library is used because it provides a high-level, easy-to-use interface to AES and other cryptographic algorithms, while also being actively maintained and audited for security vulnerabilities [4].  The encryption key is derived from the password you enter when adding documents or audio files. If you forget the password, you will not be able to decrypt the data. *Justification:* AES encryption with a 256-bit key provides strong protection for data at rest. It is a widely accepted standard for securing sensitive data and is resistant to known cryptanalytic attacks given the key size.
+    Once a document or an audio file (e.g. mp3) is uploaded to the application, the system uses Advanced Encryption Standard (AES) with 256-bit key to encrypt the artifact, or short for AES-256. And it will use the same method to decrypt the artifact once it is requested for retrieval. 
+    
+    *Justification:* The cryptography library is used in the application because it offers the ability to use AES encryption along with other cryptographic algorithms that provides strong protection for data in the application. This method offers a robust and effective encryption algorithm to secure sensitive information and resist to potential cryptanalytic attacks.
+
    
 *   **Password Hashing (using `bcrypt` library):**
   
