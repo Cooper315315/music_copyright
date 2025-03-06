@@ -23,8 +23,10 @@ This application also comes with 2 additional items below:
 
    
 *   **Password Hashing (using `bcrypt` library):**
-      
+ 
     Passwords are important credential information and must be protected, which is why bcrypt library is used to hash the password. This library also add salt to protect common attacks including rainbow table attacks and brute-force attacks.
+
+    According to (Provos and Mazieres, 1999), the bcrypt method offers adaptable, secure in design and flexible in terms of computationl cost. 
     
     *Justification:* bcrypt is designed specifically for password hashing. It is an effective method to withstand brute-force attacks and it is a highly recommended security features in a lot of application.
 
@@ -196,9 +198,8 @@ The figure below illustrates that the python script (i.e. music_copyright.py) ha
 
 ## Academic References
 
-[1]  National Institute of Standards and Technology (NIST). (2001). *Advanced Encryption Standard (AES)*. FIPS PUB 197. Available from: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf. [Accessed on 7th Mar 2025]
-
-[2]  Provos, N., & Mazières, D. (1999). *A Future-Adaptable Password Scheme*. Proceedings of the 1999 USENIX Annual Technical Conference. [https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf](https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf)
+National Institute of Standards and Technology (NIST). (2001). *Advanced Encryption Standard (AES)*. FIPS PUB 197. Available from: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf. [Accessed on 7th Mar 2025]
 
 OWASP. (2021). OWASP Top Ten. Available from: https://owasp.org/www-project-top-ten/ [Accessed on 7th Mar 2025]
 
+Provos, N., & Mazières, D. (1999). *A Future-Adaptable Password Scheme*. Available from: https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf  [Accessed on 7th Mar 2025]
