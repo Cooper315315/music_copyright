@@ -2,7 +2,12 @@
 
 ## 1. Introduction
 
-*   This Python application provides a secure system for managing music-related documents and audio files. It allows users to store, retrieve, and manage their music-related assets in a protected environment. The system incorporates strong security measures to protect sensitive data, including AES-256 encryption for data storage, bcrypt for password hashing, and input sanitization to prevent common security vulnerabilities.
+This application is created and ran in python script - **music_copyright.py**. It is a secure platform that allows users and administrator to create, read, update and delete their artifacts (including documents and audio files) via a command-line-interface. This application also implemented important security measures to protect sensitive data as well as to prevent common and serious security vulnerabilities.
+  
+This application also comes with a database - **music_database.db**, which stores the data related in the application.
+
+In addition, the application generates a log file – **access.log**, which records all activities conducted by all users.
+
 
 ## 2. Security Features
 
