@@ -15,7 +15,9 @@ This application also comes with 2 additional items below:
 
 *   **AES-256 Encryption (using `cryptography` library):**
 
-    Once a document or an audio file (e.g. mp3) is uploaded to the application, the system uses Advanced Encryption Standard (AES) with 256-bit key to encrypt the artifact, or short for AES-256. And it will use the same method to decrypt the artifact once it is requested for retrieval. 
+    Once a document or an audio file (e.g. mp3) is uploaded to the application, the system uses Advanced Encryption Standard (AES) with 256-bit key to encrypt the artifact, or short for AES-256. And it will use the same method to decrypt the artifact once it is requested for retrieval.
+
+    The AES algorithm is highly secure, flexible to use and it is approved by reputable government agency National Institute of Standards and Technology (NIST) under U.S. Department of Commerce. (NIST, 2001)
     
     *Justification:* The cryptography library is used in the application because it offers the ability to use AES encryption along with other cryptographic algorithms that provides strong protection for data in the application. This method offers a robust and effective encryption algorithm to secure sensitive information and resist to potential cryptanalytic attacks.
 
@@ -194,15 +196,9 @@ The figure below illustrates that the python script (i.e. music_copyright.py) ha
 
 ## Academic References
 
-[1]  National Institute of Standards and Technology (NIST). (2001). *Advanced Encryption Standard (AES)*. FIPS PUB 197. [https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf)
+[1]  National Institute of Standards and Technology (NIST). (2001). *Advanced Encryption Standard (AES)*. FIPS PUB 197. Available from: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf. [Accessed on 7th Mar 2025]
 
 [2]  Provos, N., & Mazières, D. (1999). *A Future-Adaptable Password Scheme*. Proceedings of the 1999 USENIX Annual Technical Conference. [https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf](https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf)
 
 OWASP. (2021). OWASP Top Ten. Available from: https://owasp.org/www-project-top-ten/ [Accessed on 7th Mar 2025]
-
-[4]  Cryptography Development Team. (2024). *cryptography*. [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)
-
-[5]  Wheeler, D. A. (2023). *Secure Password Storage*. [https://dwheeler.com/essays/passwords.html](https://dwheeler.com/essays/passwords.html)
-
-[6]  Seacord, R. C. (2013). *Secure Coding in C and C++*. Addison-Wesley Professional. (Relevant sections on input validation).
 
