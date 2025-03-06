@@ -6,9 +6,9 @@ This application is created and ran in python script - **music_copyright.py**. I
   
 This application also comes with 2 additional items below:
 
-- A database - **music_database.db**, which stores the data related in the application.
+- A database - **music_database.db**, which stores the data related to the application.
 
-- A log file – **access.log**, which records all activities conducted by all users.
+- A log file – **access.log**, which records all activities taken in the application.
 
 
 ## 2. Security Features
