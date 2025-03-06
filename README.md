@@ -30,7 +30,9 @@ This application also comes with 2 additional items below:
     
 *   **Input Sanitization (using `re` module):**
   
-      The application has implemented input sanitization mechanism in order to prevent injection attacks such as SQL injection and Coss-site scripting (XSS). While a user is providing a file name or audio file, the input is validated to remove potentially characters or malicious code
+    According to OWASP Top 10, injection attacks rank the third in the top 10 list, which is why it indicates that SQL injection and cross-site scripting (XSS) are dangerous vulnerabilities and require robust security measures to prevent them. (OWASP, 2021) 
+
+    The application has implemented input sanitization mechanism in order to prevent injection attacks such as SQL injection and Coss-site scripting (XSS). While a user is providing a file name or audio file, the input is validated to remove potentially characters or malicious code.
     
     *Justification:* By using the regular expression library (i.e. `re`), the system has the ability to pre-define acceptable patterns from user’s input. More importantly, it can identify and remove potentially malicious input of codes such as malicious sql  (" or 1=1). Properly implemented input validation is a fundamental security practice [6].
 
@@ -196,7 +198,7 @@ The figure below illustrates that the python script (i.e. music_copyright.py) ha
 
 [2]  Provos, N., & Mazières, D. (1999). *A Future-Adaptable Password Scheme*. Proceedings of the 1999 USENIX Annual Technical Conference. [https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf](https://www.usenix.org/legacy/event/usenix99/provos/provos.pdf)
 
-[3]  OWASP Foundation. (2024). *Input Validation Cheat Sheet*. [https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+OWASP. (2021). OWASP Top Ten. Available from: https://owasp.org/www-project-top-ten/ [Accessed on 7th Mar 2025]
 
 [4]  Cryptography Development Team. (2024). *cryptography*. [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)
 
