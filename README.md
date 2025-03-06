@@ -172,7 +172,7 @@ In figure 6 below, a lot of activities are logged into the file such as Audio fi
 
    Figure 6: Log files contains all activities conducted in the application.
 
-## Code Explanation
+## Core Functions Explanation
 
 *   **`encrypt(data, password)`:** This function uses AES-256 to encrypt artifacts data (documents and audio files). The  ` encrypt ` function is called when a user wants to upload documents or audio files.
 *   **`decrypt(encrypted_data, password)`:** This function decrypts the encrypted data using the same AES-256 method. The  ` decrypt ` function is called when a user wants to retrieve documents or audio files.
@@ -181,6 +181,13 @@ In figure 6 below, a lot of activities are logged into the file such as Audio fi
 *   **`validate_filename(filename)` and `validate_username(username)`:** These functions use regular expressions (`re` library)to validate filenames and usernames, preventing invalid or potentially malicious inputs.
 *   **`log_activity(activity, username)`:** This function logs user activity to an "access.log" file. This log file can be used for important purposes including security audits and incident investigation/troubleshooting.
 
+## Security Testing (Bandit)
+
+This application has been tested with security testing tool - Bandit.
+
+The figure below illustrates that the python script (i.e. music_copyright.py) has identified no severe security issues.
+
+![Screenshot 2025-03-06 at 15 21 39](https://github.com/user-attachments/assets/41b2a8f5-1e96-4134-b534-3ed35a339b24)
 
 
 ## Academic References
