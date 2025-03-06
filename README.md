@@ -4,9 +4,11 @@
 
 This application is created and ran in python script - **music_copyright.py**. It is a secure platform that allows users and administrator to create, read, update and delete their artifacts (including documents and audio files) via a command-line-interface. This application also implemented important security measures to protect sensitive data as well as to prevent common and serious security vulnerabilities.
   
-This application also comes with a database - **music_database.db**, which stores the data related in the application.
+This application also comes with 2 additional items below:
 
-In addition, the application generates a log file – **access.log**, which records all activities conducted by all users.
+- A database - **music_database.db**, which stores the data related in the application.
+
+- A log file – **access.log**, which records all activities conducted by all users.
 
 
 ## 2. Security Features
