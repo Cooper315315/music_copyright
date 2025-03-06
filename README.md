@@ -25,45 +25,27 @@
 ### Prerequisites
 
 *   Python 3.6 or higher
-*   `pip` (Python package installer)
 
 ### Windows
 
-1.  **Install Python:**
+1.  Open a command prompt (search for "cmd" in the Start menu).
+2.  Navigate to the directory where you saved the `music_copyright-v15.py` script using the `cd` command.
+3.  Run the following command to install the required Python packages:
 
-    *   Download the latest version of Python from the official website: [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
-    *   Run the installer and ensure that you select the option to add Python to your PATH environment variable.
-2.  **Install Dependencies:**
-
-    *   Open a command prompt (search for "cmd" in the Start menu).
-    *   Navigate to the directory where you saved the `music_copyright-v15.py` script using the `cd` command.
-    *   Run the following command to install the required Python packages:
-
-        ```
-        pip install cryptography bcrypt
-        ```
+    ```
+    pip install cryptography bcrypt
+    ```
 
 ### macOS
 
-1.  **Install Python:**
+1.  Open a terminal (search for "Terminal" in Spotlight).
+2.  Navigate to the directory where you saved the `music_copyright-v15.py` script using the `cd` command.
+3.  Run the following command to install the required Python packages:
 
-    *   macOS usually comes with Python pre-installed, but it's often an older version. It's recommended to install a newer version using Homebrew.
-    *   If you don't have Homebrew, install it from the official website: [https://brew.sh/](https://brew.sh/)
-    *   Open a terminal (search for "Terminal" in Spotlight).
-    *   Run the following command to install Python 3:
+    ```
+    pip3 install cryptography bcrypt
+    ```
 
-        ```
-        brew install python3
-        ```
-2.  **Install Dependencies:**
-
-    *   Open a terminal.
-    *   Navigate to the directory where you saved the `music_copyright-v15.py` script using the `cd` command.
-    *   Run the following command to install the required Python packages:
-
-        ```
-        pip3 install cryptography bcrypt
-        ```
 
 ## 4. Usage
 
