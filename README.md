@@ -24,7 +24,7 @@ This application also comes with 2 additional items below:
    
 *   **Password Hashing (using `bcrypt` library):**
  
-    Passwords are important credential information and must be protected, which is why bcrypt library is used to hash the password. This library also add salt to protect common attacks including rainbow table attacks and brute-force attacks.
+    Passwords are important credential information and must be protected, which is why bcrypt library is used to hash the password. This library also add salt to protect common attacks such as brute-force attacks.
 
     According to (Provos and Mazieres, 1999), the bcrypt method offers adaptable, secure in design and flexible in terms of computationl cost. 
     
@@ -48,9 +48,9 @@ This application also comes with 2 additional items below:
 
 ### Windows
 
-1.  Open a command prompt (search for "cmd" in the Start menu).
-2.  Navigate to the directory where you saved the `music_copyright-v15.py` script using the `cd` command.
-3.  Run the following command to install the required Python packages:
+1.  Open a command prompt by searching "cmd" in the Start menu.
+2.  Navigate to the directory where the `music_copyright.py` script is stored by using the `cd` command.
+3.  Run the command below to install the required Python packages:
 
     ```
     pip install cryptography bcrypt
@@ -58,9 +58,9 @@ This application also comes with 2 additional items below:
 
 ### macOS
 
-1.  Open a terminal (search for "Terminal" in Spotlight).
-2.  Navigate to the directory where you saved the `music_copyright-v15.py` script using the `cd` command.
-3.  Run the following command to install the required Python packages:
+1.  Open a terminal by searching "Terminal" in the Spotlight.
+2.  Navigate to the directory where the `music_copyright.py` script is stored by using the `cd` command.
+3.  Run the command below to install the required Python packages:
 
     ```
     pip3 install cryptography bcrypt
@@ -69,15 +69,15 @@ This application also comes with 2 additional items below:
 
 ## 4. Usage
 
-1.  **Save the Script:** Save the provided Python script (`music_copyright-v15.py`) to a directory on your computer.
+1.  **Save the Script:** Save the provided Python script (`music_copyright.py`) to a directory on your computer.
 2.  **Run the Script:**
 
     *   Open a command prompt (Windows) or terminal (macOS).
-    *   Navigate to the directory where you saved the script using the `cd` command.
-    *   Run the script using the following command:
+    *   Navigate to the directory where the pytho script is stored by using the `cd` command.
+    *   Run the script using the command below:
 
         ```
-        python music_copyright-v15.py
+        python music_copyright.py
         ```
 
 3.  **Follow the Prompts:** The script will guide you through a menu-driven interface to register users, log in, add documents/audio files, retrieve them, and perform other management tasks.
