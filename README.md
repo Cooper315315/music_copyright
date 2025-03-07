@@ -85,8 +85,13 @@ This application also comes with 2 additional items below:
 ## 5. Functions Rundown
 *Login page*
 1.	**Register:** Register an account in order to login and conduct different action such as create & update artifacts.
-2.	**Login:** Login as administrator or a registered account
-3.	**Exit:** Exit the application
+2.	**Login:** Login as administrator or a registered account	
+
+  	Default administrator credential is (Username: amdin1; Password: qwerty)
+  	
+  	**IMPORTANT REMINDER**: Please change the default password **IMMEIDATELY** after you logged in as an administrator the first time.
+  	
+4.	**Exit:** Exit the application
 
     <img width="657" alt="Screenshot 2025-03-05 at 23 01 36" src="https://github.com/user-attachments/assets/e9e90dfd-3142-4d51-9593-3e417a40590b" />
 
