@@ -90,6 +90,7 @@ This application also comes with 2 additional items below:
   	Default administrator credential is (Username: amdin1; Password: qwerty)
   	
   	**IMPORTANT REMINDER**: Please change the default password **IMMEIDATELY** after you logged in as an administrator the first time.
+    (Main Menu > Option 10: Manage Users > Option 3: Modify User > Follow on screen instructions to change admin name / password)
   	
 4.	**Exit:** Exit the application
 
