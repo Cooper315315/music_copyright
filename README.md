@@ -87,7 +87,7 @@ This application also comes with 2 additional items below:
 1.	**Register:** Register an account in order to login and conduct different action such as create & update artifacts.
 2.	**Login:** Login as administrator or a registered account	
 
-  	Default administrator credential is (Username: amdin1; Password: qwerty)
+  	Default administrator credential is (Username: admin1; Password: qwerty)
   	
   	**IMPORTANT REMINDER**: Please change the default password **IMMEIDATELY** after you logged in as an administrator the first time.
     (Main Menu > Option 10: Manage Users > Option 3: Modify User > Follow on screen instructions to change admin name / password)
